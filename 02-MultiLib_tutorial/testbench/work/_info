@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/minha/OneDrive - iut-dhaka.edu/Desktop/IUTSTUFF/Thesis/ModelSIM/MultiLib_tutorial/testbench
+vtest_counter
+!s110 1672508405
+!i10b 1
+!s100 =IUc<@@El=e05PonHFBXZ1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+II`S3JLPz3g0a2f`^Y0m=40
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1582886297
+8C:/Users/minha/OneDrive - iut-dhaka.edu/Desktop/IUTSTUFF/Thesis/ModelSIM/MultiLib_tutorial/testbench/tcounter.v
+FC:/Users/minha/OneDrive - iut-dhaka.edu/Desktop/IUTSTUFF/Thesis/ModelSIM/MultiLib_tutorial/testbench/tcounter.v
+!i122 0
+L0 11 24
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672508404.000000
+!s107 C:/Users/minha/OneDrive - iut-dhaka.edu/Desktop/IUTSTUFF/Thesis/ModelSIM/MultiLib_tutorial/testbench/tcounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/minha/OneDrive - iut-dhaka.edu/Desktop/IUTSTUFF/Thesis/ModelSIM/MultiLib_tutorial/testbench/tcounter.v|
+!i113 1
+o-work work
+tCvgOpt 0

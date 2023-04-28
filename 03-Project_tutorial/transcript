@@ -1,0 +1,72 @@
+# Compile of counter.v was successful.
+# Compile of tcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.test_counter
+# vsim work.test_counter 
+# Start time: 19:35:05 on Jan 03,2023
+# Loading work.test_counter
+# Loading work.counter
+# ERROR ApplyCurrentColumnConfiguration config_name Default not found
+# Default Column Data
+# 	name AllColumns - name du duType category accTyp pdName covOpt total cvgPnt dtveHit dtveMis dtvePnt dtveGrph asrtCnt asrtHit asrtMis asrtPnt asrtGrph stmt hits misses stmtperc stmtgraph branches bhits bmiss bperc bgraph conds condhits condmiss condperc condgraph exprs exprhits exprmiss exprperc exprgraph toggles toghits togmiss togperc toggraph states statehits statemiss stateperc stategraph transitions transhits transmiss transperc transgraph fecconds feccondhits feccondmiss feccondperc feccondgraph fecexprs fecexprhits fecexprmiss fecexprperc fecexprgraph
+# Column Data
+# 	name AllColumns - name du duType category accTyp pdName covOpt total cvgPnt dtveHit dtveMis dtvePnt dtveGrph asrtCnt asrtHit asrtMis asrtPnt asrtGrph stmt hits misses stmtperc stmtgraph branches bhits bmiss bperc bgraph conds condhits condmiss condperc condgraph exprs exprhits exprmiss exprperc exprgraph toggles toghits togmiss togperc toggraph states statehits statemiss stateperc stategraph transitions transhits transmiss transperc transgraph fecconds feccondhits feccondmiss feccondperc feccondgraph fecexprs fecexprhits fecexprmiss fecexprperc fecexprgraph
+# **** Error: LoadCompleteQ cmd: Transcript::ViewSimPanes sim
+# ****        can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array
+# can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array
+#     while executing
+# "Structure::CreateWindow $dataset_name"
+#     (procedure "Transcript::ViewSimPanes" line 28)
+#     invoked from within
+# "Transcript::ViewSimPanes sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+vsim work.test_counter
+# End time: 19:35:23 on Jan 03,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 5
+# vsim work.test_counter 
+# Start time: 19:35:23 on Jan 03,2023
+# Loading work.test_counter
+# Loading work.counter
+# **** Error: LoadCompleteQ cmd: Transcript::ViewSimPanes sim
+# ****        can't rename to "::.main_pane.structure.interior.cs.body.struct": command already exists
+# can't rename to "::.main_pane.structure.interior.cs.body.struct": command already exists
+#     while executing
+# "$vsimPriv(windowmgr) ShowWindow $windowobj"
+#     (procedure "Structure::CreateWindow" line 23)
+#     invoked from within
+# "Structure::CreateWindow $dataset_name"
+#     (procedure "Transcript::ViewSimPanes" line 28)
+#     invoked from within
+# "Transcript::ViewSimPanes sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+add wave sim:/test_counter/*
+run
+#          0 0 0    x
+#          5 1 0    0
+#          9 0 0    0
+#         20 0 1    1
+#         30 0 0    1
+#         40 0 1    2
+#         50 0 0    2
+#         60 0 1    3
+#         70 0 0    3
+#         80 0 1    4
+#         90 0 0    4
+run
+#        100 0 1    5
+#        110 0 0    5
+#        120 0 1    6
+#        130 0 0    6
+#        140 0 1    7
+#        150 0 0    7
+#        160 0 1    8
+#        170 0 0    8
+#        180 0 1    9
+#        190 0 0    9
+quit -sim
+# End time: 19:36:08 on Jan 03,2023, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
